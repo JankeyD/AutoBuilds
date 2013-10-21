@@ -20,6 +20,20 @@
                ReferencedContainer = "container:AutoBuilds.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E6B39E3B1815161B00E1F83D"
+               BuildableName = "AutoBuildsTests.xctest"
+               BlueprintName = "AutoBuildsTests"
+               ReferencedContainer = "container:AutoBuilds.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -35,6 +49,26 @@
                BlueprintIdentifier = "E6B39E3B1815161B00E1F83D"
                BuildableName = "AutoBuildsTests.xctest"
                BlueprintName = "AutoBuildsTests"
+               ReferencedContainer = "container:AutoBuilds.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E6B39F0618154EE000E1F83D"
+               BuildableName = "AutoBuilds Tests.octest"
+               BlueprintName = "AutoBuilds Tests"
+               ReferencedContainer = "container:AutoBuilds.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E6B39F1C18154F0E00E1F83D"
+               BuildableName = "AutoBuilds_Tests.xctest"
+               BlueprintName = "AutoBuilds_Tests"
                ReferencedContainer = "container:AutoBuilds.xcodeproj">
             </BuildableReference>
          </TestableReference>

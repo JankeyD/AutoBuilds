@@ -1,18 +1,18 @@
 //
-//  AutoBuildsTests.m
-//  AutoBuildsTests
+//  AutoBuilds_Tests.m
+//  AutoBuilds Tests
 //
 //  Created by Roman Lazan on 10/21/13.
 //  Copyright (c) 2013 Roman Lazan. All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
+#import <SenTestingKit/SenTestingKit.h>
 
-@interface AutoBuildsTests : XCTestCase
+@interface AutoBuilds_Tests : SenTestCase
 
 @end
 
-@implementation AutoBuildsTests
+@implementation AutoBuilds_Tests
 
 - (void)setUp
 {
@@ -28,7 +28,7 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    STFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end
