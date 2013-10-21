@@ -9,6 +9,7 @@
 #import <XCTest/XCTest.h>
 #import "NMUtils.h"
 
+
 @interface AutoBuilds_Tests : XCTestCase
 
 @end
@@ -29,7 +30,7 @@
 
 - (void)testCharacterClassNameLookup
 {
-    //XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    // XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
     
     XCTAssertTrue([@"Paladin" isEqualToString:[NMUtils classFromCharacterType:2]]);
     
