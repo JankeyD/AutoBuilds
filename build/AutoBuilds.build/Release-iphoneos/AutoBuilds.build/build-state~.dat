@@ -1,802 +1,0 @@
-TAutoBuilds
-v6
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Release-iphoneos/AutoBuilds.app/ResourceRules.plist
-cProcessPCH /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-azllbgxrojhuqogncfqmojvdtwtc/AutoBuilds-Prefix.pch.pch AutoBuilds/AutoBuilds-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-byfdneszfcyrauheonbsopatiinn/AutoBuilds-Prefix.pch.pch AutoBuilds/AutoBuilds-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-alhsppposlzyuweovtacirccqzvf/AutoBuilds-Prefix.pch.pch AutoBuilds/AutoBuilds-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMViewController.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMUtils.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/main.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMAppDelegate.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMUtils.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMViewController.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/main.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMAppDelegate.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMUtils.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMViewController.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/main.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMAppDelegate.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/AutoBuilds normal armv7s
-cLd /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/AutoBuilds normal arm64
-cLd /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/AutoBuilds normal armv7
-cCreateUniversalBinary /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/AutoBuilds normal armv7\ armv7s\ arm64
-cGenerateDSYMFile /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app.dSYM /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/AutoBuilds
-cCompileStoryboard /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/Base.lproj/Main.storyboard
-cCopyStringsFile /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/en.lproj/InfoPlist.strings AutoBuilds/en.lproj/InfoPlist.strings
-cCompileAssetCatalog /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/Images.xcassets
-cProcessInfoPlistFile /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/Info.plist /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Info.plist
-cProcessProductPackaging /Users/rlazan/Library/MobileDevice/Provisioning\ Profiles/08A1727C-6D0C-4701-B42A-FC840F9ADB90.mobileprovision /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/embedded.mobileprovision
-cTouch /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds.xcent
-cCodeSign /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app
-cValidate /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
-c00000000521BCCE10000000000000110
-t1377553633
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
-c00000000523655430000000000000094
-t1379292483
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
-c00000000523655430000000000000096
-t1379292483
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
-c0000000052365543000000000000036B
-t1379292483
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000052365547000000000000019E
-t1379292487
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000005236554F00000000004D6390
-t1379292495
-s5071760
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000523655510000000000A8EAD0
-t1379292497
-s11070160
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000523655610000000002597C70
-t1379292513
-s39418992
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
-c0000000052364DBF0000000000000AC9
-t1379290559
-s2761
-
-N/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Info.plist
-c000000005264DE9B00000000000004C2
-t1382342299
-s1218
-
-N/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Prefix.pch
-c000000005264DE9B0000000000000158
-t1382342299
-s344
-
-N/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/Base.lproj/Main.storyboard
-c000000005264F9410000000000000AA7
-t1382349121
-s2727
-
-N/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/Images.xcassets
-c000000005264DE9B0000000000000088
-t1382342299
-s136
-
-N/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m
-c000000005264F46E00000000000007ED
-t1382347886
-s2029
-
-N/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m
-c00000000526509C200000000000007DC
-t1382353346
-s2012
-
-N/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m
-c000000005264DE9B00000000000001F9
-t1382342299
-s505
-
-N/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/en.lproj/InfoPlist.strings
-c000000005264DE9B000000000000002D
-t1382342299
-s45
-
-N/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m
-c000000005264DE9B0000000000000159
-t1382342299
-s345
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds.xcent
-t1382367143
-s406
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/AutoBuilds
-t1382367142
-s54972
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/AutoBuilds.LinkFileList
-c0000000052653FA500000000000001F0
-t1382367141
-s496
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMAppDelegate.o
-t1382367142
-s69596
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMUtils.o
-t1382367142
-s9696
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMViewController.o
-t1382367142
-s40772
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/main.o
-t1382367142
-s4456
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/AutoBuilds
-t1382367142
-s54628
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/AutoBuilds.LinkFileList
-c0000000052653FA500000000000001F0
-t1382367141
-s496
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMAppDelegate.o
-t1382367141
-s65132
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMUtils.o
-t1382367141
-s8388
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMViewController.o
-t1382367141
-s41112
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/main.o
-t1382367141
-s3772
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/AutoBuilds
-t1382367142
-s54632
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/AutoBuilds.LinkFileList
-c0000000052653FA500000000000001F4
-t1382367141
-s500
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMAppDelegate.o
-t1382367142
-s65132
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMUtils.o
-t1382367142
-s8388
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMViewController.o
-t1382367142
-s41112
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/main.o
-t1382367141
-s3772
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/assetcatalog_dependencies.txt
-t1382367143
-s321
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/assetcatalog_generated_info.plist
-t1382367143
-s525
-
-N/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/com.apple.build-tools.platform.validate
-t2
-s0
-
-N/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app
-t1382367143
-s374
-
-N/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app.dSYM
-t2
-s0
-
-N/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/AutoBuilds
-t1382367142
-s202428
-
-N/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/Base.lproj/Main.storyboardc
-t1382367143
-s170
-
-N/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/Info.plist
-t1382367143
-s1295
-
-N/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/PkgInfo
-t1382367143
-s8
-
-N/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/ResourceRules.plist
-t1382367141
-s150
-
-N/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/embedded.mobileprovision
-t1382367143
-s7420
-
-N/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/en.lproj/InfoPlist.strings
-t1382367142
-s42
-
-N/Users/rlazan/Library/MobileDevice/Provisioning Profiles/08A1727C-6D0C-4701-B42A-FC840F9ADB90.mobileprovision
-c00000000525D01260000000000001CFC
-t1381826854
-s7420
-
-N/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-alhsppposlzyuweovtacirccqzvf/AutoBuilds-Prefix.pch.pch
-t1382367141
-s110472
-
-N/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-azllbgxrojhuqogncfqmojvdtwtc/AutoBuilds-Prefix.pch.pch
-t1382367141
-s86932
-
-N/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-byfdneszfcyrauheonbsopatiinn/AutoBuilds-Prefix.pch.pch
-t1382367141
-s86884
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7a5672257715b841^1bf4a9257715b841^---0#1#1#--18"Check dependencies36"C248E3A4-A737-488A-8CBF-1334A832953F-
-
-CCodeSign /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app
-s404059943.374657
-e404059943.591201
-r1
-xCodeSign
-x/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"[1mCodeSign[0m [1mbuild/Release-iphoneos/AutoBuilds.app[0m62"[1mCodeSign[0m [1mbuild/Release-iphoneos/AutoBuilds.app[0m172960277715b841^c95a97277715b841^---0#0#1#-19%DVTDocumentLocation2@87"file://localhost/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/0000000000000000^974"[1mCodeSign[0m [1mbuild/Release-iphoneos/AutoBuilds.app[0m    cd /Users/rlazan/Desktop/AutoBuilds    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    Using code signing identity "iPhone Developer: roman lazan (7595DY28P9)" and provisioning profile "rlazan_wildcard_test" (08A1727C-6D0C-4701-B42A-FC840F9ADB90)    codesign --force --sign 5B95A0353815F9B5374D7353674F3B3293708FB8 --resource-rules=/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/ResourceRules.plist --entitlements /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds.xcent /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app36"B4C5716A-DF11-41E0-9427-7CA2E50F6F4F-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCompileAssetCatalog /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/Images.xcassets
-s404059942.295567
-e404059943.086850
-r1
-xCompileAssetCatalog
-x/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app
-x/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/Images.xcassets
-o/* com.apple.actool.compilation-results */
-o/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/LaunchImage-700-568h@2x.png
-o/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/Assets.car
-o/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/assetcatalog_generated_info.plist
-o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"[1mCompileAssetCatalog[0m build/Release-iphoneos/AutoBuilds.app [1mAutoBuilds/Images.xcassets[0m100"[1mCompileAssetCatalog[0m build/Release-iphoneos/AutoBuilds.app [1mAutoBuilds/Images.xcassets[0m6abd4b267715b841^a73c16277715b841^-349"/* com.apple.actool.compilation-results *//Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/LaunchImage-700-568h@2x.png/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/Assets.car/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@76"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/Images.xcassets/0000000000000000^1038"[1mCompileAssetCatalog[0m build/Release-iphoneos/AutoBuilds.app [1mAutoBuilds/Images.xcassets[0m    cd /Users/rlazan/Desktop/AutoBuilds    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/Images.xcassets36"6898127B-2860-43E7-A57A-AE257DCEE612-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMAppDelegate.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404059942.056544
-e404059942.128399
-r1
-xCompileC
-xbuild/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMAppDelegate.o
-x/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m214"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMAppDelegate.o [1mAutoBuilds/NMAppDelegate.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler25940e267715b841^d3de20267715b841^---0#0#1#-19%DVTDocumentLocation2@75"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m0000000000000000^3517"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMAppDelegate.o [1mAutoBuilds/NMAppDelegate.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rlazan/Desktop/AutoBuilds    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=112 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-generated-files.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-own-target-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-all-target-headers.hmap -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-project-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources/arm64 -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -include /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-alhsppposlzyuweovtacirccqzvf/AutoBuilds-Prefix.pch -MMD -MT dependencies -MF /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMAppDelegate.d --serialize-diagnostics /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMAppDelegate.dia -c /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMAppDelegate.o36"71C0AC4F-B62B-462F-A166-3016CA11BDC1-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMUtils.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404059941.997519
-e404059942.085018
-r1
-xCompileC
-xbuild/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMUtils.o
-x/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m202"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMUtils.o [1mAutoBuilds/NMUtils.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerfe7cff257715b841^89d315267715b841^---0#0#1#-19%DVTDocumentLocation2@69"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m0000000000000000^3481"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMUtils.o [1mAutoBuilds/NMUtils.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rlazan/Desktop/AutoBuilds    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=112 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-generated-files.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-own-target-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-all-target-headers.hmap -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-project-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources/arm64 -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -include /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-alhsppposlzyuweovtacirccqzvf/AutoBuilds-Prefix.pch -MMD -MT dependencies -MF /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMUtils.d --serialize-diagnostics /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMUtils.dia -c /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMUtils.o36"50B5BC1D-1C7B-4597-8987-644BFEF97EC7-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMViewController.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404059942.008824
-e404059942.098328
-r1
-xCompileC
-xbuild/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMViewController.o
-x/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m220"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMViewController.o [1mAutoBuilds/NMViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler9e6102267715b841^f52b19267715b841^---0#0#1#-19%DVTDocumentLocation2@78"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m0000000000000000^3535"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMViewController.o [1mAutoBuilds/NMViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rlazan/Desktop/AutoBuilds    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=112 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-generated-files.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-own-target-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-all-target-headers.hmap -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-project-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources/arm64 -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -include /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-alhsppposlzyuweovtacirccqzvf/AutoBuilds-Prefix.pch -MMD -MT dependencies -MF /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMViewController.d --serialize-diagnostics /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMViewController.dia -c /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMViewController.o36"1BAF34E1-7856-4217-9BF7-6CF1AFF719CD-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/main.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404059942.040874
-e404059942.086041
-r1
-xCompileC
-xbuild/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/main.o
-x/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m196"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/main.o [1mAutoBuilds/main.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc4960a267715b841^f31b16267715b841^---0#0#1#-19%DVTDocumentLocation2@66"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m0000000000000000^3463"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/main.o [1mAutoBuilds/main.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rlazan/Desktop/AutoBuilds    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=112 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-generated-files.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-own-target-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-all-target-headers.hmap -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-project-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources/arm64 -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -include /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-alhsppposlzyuweovtacirccqzvf/AutoBuilds-Prefix.pch -MMD -MT dependencies -MF /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/main.dia -c /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/main.o36"1EB1AD3A-8595-42A4-8FA9-3E3773934F63-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMAppDelegate.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404059941.860276
-e404059941.966993
-r1
-xCompileC
-xbuild/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMAppDelegate.o
-x/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m214"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMAppDelegate.o [1mAutoBuilds/NMAppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerac54dc257715b841^eca3f7257715b841^---0#0#1#-19%DVTDocumentLocation2@75"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m0000000000000000^3517"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMAppDelegate.o [1mAutoBuilds/NMAppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rlazan/Desktop/AutoBuilds    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=112 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-generated-files.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-own-target-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-all-target-headers.hmap -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-project-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources/armv7 -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -include /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-azllbgxrojhuqogncfqmojvdtwtc/AutoBuilds-Prefix.pch -MMD -MT dependencies -MF /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMAppDelegate.d --serialize-diagnostics /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMAppDelegate.dia -c /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMAppDelegate.o36"06BB5CE2-7378-4456-9D4A-A6C707775991-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMUtils.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404059941.860062
-e404059941.944197
-r1
-xCompileC
-xbuild/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMUtils.o
-x/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m202"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMUtils.o [1mAutoBuilds/NMUtils.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler2b4bdc257715b841^d7c1f1257715b841^---0#0#1#-19%DVTDocumentLocation2@69"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m0000000000000000^3481"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMUtils.o [1mAutoBuilds/NMUtils.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rlazan/Desktop/AutoBuilds    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=112 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-generated-files.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-own-target-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-all-target-headers.hmap -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-project-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources/armv7 -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -include /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-azllbgxrojhuqogncfqmojvdtwtc/AutoBuilds-Prefix.pch -MMD -MT dependencies -MF /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMUtils.d --serialize-diagnostics /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMUtils.dia -c /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMUtils.o36"3F23697E-AF15-4256-AC8D-290BB07D0DD0-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMViewController.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404059941.860058
-e404059941.953462
-r1
-xCompileC
-xbuild/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMViewController.o
-x/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m220"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMViewController.o [1mAutoBuilds/NMViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler9949dc257715b841^2a1df4257715b841^---0#0#1#-19%DVTDocumentLocation2@78"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m0000000000000000^3535"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMViewController.o [1mAutoBuilds/NMViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rlazan/Desktop/AutoBuilds    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=112 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-generated-files.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-own-target-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-all-target-headers.hmap -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-project-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources/armv7 -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -include /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-azllbgxrojhuqogncfqmojvdtwtc/AutoBuilds-Prefix.pch -MMD -MT dependencies -MF /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMViewController.d --serialize-diagnostics /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMViewController.dia -c /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMViewController.o36"ED2181F0-B10E-4FB5-B2C7-DF9412D3AEFF-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/main.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404059941.860066
-e404059941.944674
-r1
-xCompileC
-xbuild/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/main.o
-x/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m196"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/main.o [1mAutoBuilds/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler0a4bdc257715b841^99d7f1257715b841^---0#0#1#-19%DVTDocumentLocation2@66"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m0000000000000000^3463"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/main.o [1mAutoBuilds/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rlazan/Desktop/AutoBuilds    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=112 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-generated-files.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-own-target-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-all-target-headers.hmap -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-project-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources/armv7 -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -include /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-azllbgxrojhuqogncfqmojvdtwtc/AutoBuilds-Prefix.pch -MMD -MT dependencies -MF /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/main.dia -c /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/main.o36"0BE4DF8B-B3EF-4B7E-B311-EBF738B5B9F0-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMAppDelegate.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404059941.968640
-e404059942.055177
-r1
-xCompileC
-xbuild/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMAppDelegate.o
-x/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m216"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMAppDelegate.o [1mAutoBuilds/NMAppDelegate.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerd718f8257715b841^9f1f0e267715b841^---0#0#1#-19%DVTDocumentLocation2@75"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m0000000000000000^3524"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMAppDelegate.o [1mAutoBuilds/NMAppDelegate.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rlazan/Desktop/AutoBuilds    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=112 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-generated-files.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-own-target-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-all-target-headers.hmap -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-project-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources/armv7s -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -include /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-byfdneszfcyrauheonbsopatiinn/AutoBuilds-Prefix.pch -MMD -MT dependencies -MF /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMAppDelegate.d --serialize-diagnostics /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMAppDelegate.dia -c /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.m -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMAppDelegate.o36"571A23E4-790F-48FE-B575-CAF23581F934-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMUtils.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404059941.945575
-e404059942.007513
-r1
-xCompileC
-xbuild/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMUtils.o
-x/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m204"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMUtils.o [1mAutoBuilds/NMUtils.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilera930f2257715b841^70ec01267715b841^---0#0#1#-19%DVTDocumentLocation2@69"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m0000000000000000^3488"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMUtils.o [1mAutoBuilds/NMUtils.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rlazan/Desktop/AutoBuilds    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=112 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-generated-files.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-own-target-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-all-target-headers.hmap -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-project-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources/armv7s -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -include /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-byfdneszfcyrauheonbsopatiinn/AutoBuilds-Prefix.pch -MMD -MT dependencies -MF /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMUtils.d --serialize-diagnostics /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMUtils.dia -c /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMUtils.m -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMUtils.o36"6EA68E9A-992D-47CB-9814-8CF0736BEAF9-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMViewController.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404059941.945912
-e404059942.039550
-r1
-xCompileC
-xbuild/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMViewController.o
-x/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m222"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMViewController.o [1mAutoBuilds/NMViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler7444f2257715b841^0d350a267715b841^---0#0#1#-19%DVTDocumentLocation2@78"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m0000000000000000^3542"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMViewController.o [1mAutoBuilds/NMViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rlazan/Desktop/AutoBuilds    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=112 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-generated-files.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-own-target-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-all-target-headers.hmap -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-project-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources/armv7s -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -include /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-byfdneszfcyrauheonbsopatiinn/AutoBuilds-Prefix.pch -MMD -MT dependencies -MF /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMViewController.d --serialize-diagnostics /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMViewController.dia -c /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMViewController.m -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMViewController.o36"5D9CEAA8-DC40-4684-855F-54098AD6EA98-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCompileC build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/main.o /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404059941.955488
-e404059941.996100
-r1
-xCompileC
-xbuild/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/main.o
-x/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/NMAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m198"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/main.o [1mAutoBuilds/main.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler3dbbf4257715b841^c615ff257715b841^---0#0#1#-19%DVTDocumentLocation2@66"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m0000000000000000^3470"[1mCompileC[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/main.o [1mAutoBuilds/main.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rlazan/Desktop/AutoBuilds    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=112 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-generated-files.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-own-target-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-all-target-headers.hmap -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-project-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources/armv7s -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -include /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-byfdneszfcyrauheonbsopatiinn/AutoBuilds-Prefix.pch -MMD -MT dependencies -MF /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/main.dia -c /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/main.m -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/main.o36"B55D9B73-6FD6-4ED2-933C-4894093F999E-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCompileStoryboard /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/Base.lproj/Main.storyboard
-s404059942.295542
-e404059943.331092
-r1
-xCompileStoryboard
-x/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/Base.lproj/Main.storyboard
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"[1mCompileStoryboard[0m [1mAutoBuilds/Base.lproj/Main.storyboard[0m71"[1mCompileStoryboard[0m [1mAutoBuilds/Base.lproj/Main.storyboard[0m45ba4b267715b841^26c454277715b841^---0#0#1#-19%DVTDocumentLocation2@86"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/Base.lproj/Main.storyboard0000000000000000^795"[1mCompileStoryboard[0m [1mAutoBuilds/Base.lproj/Main.storyboard[0m    cd /Users/rlazan/Desktop/AutoBuilds    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/Base.lproj/Main.storyboardc /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/Base.lproj/Main.storyboard36"43146A60-BCB5-493B-BEF1-FDE39E87FB7D-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCopyStringsFile /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/en.lproj/InfoPlist.strings AutoBuilds/en.lproj/InfoPlist.strings
-s404059942.295542
-e404059942.299100
-r1
-xCopyStringsFile
-x/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/en.lproj/InfoPlist.strings
-xAutoBuilds/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy AutoBuilds/en.lproj/InfoPlist.strings126"[1mCopyStringsFile[0m build/Release-iphoneos/AutoBuilds.app/en.lproj/InfoPlist.strings AutoBuilds/en.lproj/InfoPlist.strings49bd4b267715b841^36924c267715b841^---0#0#1#-19%DVTDocumentLocation2@86"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/en.lproj/InfoPlist.strings0000000000000000^581"[1mCopyStringsFile[0m build/Release-iphoneos/AutoBuilds.app/en.lproj/InfoPlist.strings AutoBuilds/en.lproj/InfoPlist.strings    cd /Users/rlazan/Desktop/AutoBuilds    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/en.lproj -- AutoBuilds/en.lproj/InfoPlist.strings36"FE5EEC2C-B2EF-400D-910E-7D4B678EB4A6-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Release-iphoneos/AutoBuilds.app/ResourceRules.plist
-s404059941.667701
-e404059941.669912
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
-xbuild/Release-iphoneos/AutoBuilds.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Release-iphoneos/AutoBuilds.app/ResourceRules.plist198"[1mCpResource[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Release-iphoneos/AutoBuilds.app/ResourceRules.pliste602ab257715b841^5a7fab257715b841^---0#0#1#-19%DVTDocumentLocation2@106"file://localhost/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/ResourceRules.plist00648bb017f4df42^873"[1mCpResource[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Release-iphoneos/AutoBuilds.app/ResourceRules.plist    cd /Users/rlazan/Desktop/AutoBuilds    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app36"996B4747-3757-4FCD-962D-7B7EB4130FB0-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CCreateUniversalBinary /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/AutoBuilds normal armv7\ armv7s\ arm64
-s404059942.246879
-e404059942.256757
-r1
-xCreateUniversalBinary
-x/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/AutoBuilds
-xnormal
-xarmv7 armv7s arm64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Create universal binary /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/AutoBuilds114"[1mCreateUniversalBinary[0m [1mbuild/Release-iphoneos/AutoBuilds.app/AutoBuilds[0m normal armv7\ armv7s\ arm649d493f267715b841^f5ba41267715b841^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/AutoBuilds00380cafdfffdf42^832"[1mCreateUniversalBinary[0m [1mbuild/Release-iphoneos/AutoBuilds.app/AutoBuilds[0m normal armv7\ armv7s\ arm64    cd /Users/rlazan/Desktop/AutoBuilds    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    lipo -create /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/AutoBuilds /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/AutoBuilds /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/AutoBuilds -output /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/AutoBuilds36"9406DF00-6314-45B2-B0D3-2953D06EFE30-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CGenerateDSYMFile /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app.dSYM /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/AutoBuilds
-s404059942.265265
-e404059942.287422
-r1
-xGenerateDSYMFile
-x/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app.dSYM
-x/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/AutoBuilds
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Generate /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app.dSYM124"[1mGenerateDSYMFile[0m [1mbuild/Release-iphoneos/AutoBuilds.app.dSYM[0m build/Release-iphoneos/AutoBuilds.app/AutoBuildsb9fc43267715b841^689549267715b841^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app.dSYM00380cafdfffdf42^629"[1mGenerateDSYMFile[0m [1mbuild/Release-iphoneos/AutoBuilds.app.dSYM[0m build/Release-iphoneos/AutoBuilds.app/AutoBuilds    cd /Users/rlazan/Desktop/AutoBuilds    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/AutoBuilds -o /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app.dSYM36"5C1B0FAF-731D-42D2-83EF-B4C336F0F3B9-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CLd /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/AutoBuilds normal arm64
-s404059942.136790
-e404059942.236173
-r1
-xLd
-x/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/AutoBuilds
-xnormal
-xarm64
-d/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/AutoBuilds.LinkFileList
-d/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMUtils.o
-d/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMViewController.o
-d/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/main.o
-d/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/NMAppDelegate.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Link /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/AutoBuilds112"[1mLd[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/AutoBuilds normal arm648b1b23267715b841^79773c267715b841^---0#0#1#--1315"[1mLd[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/AutoBuilds normal arm64    cd /Users/rlazan/Desktop/AutoBuilds    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -filelist /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/AutoBuilds.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/AutoBuilds_dependency_info.dat -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/arm64/AutoBuilds36"56C60D3E-E6AC-4240-B0DB-55207F1E2191-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CLd /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/AutoBuilds normal armv7
-s404059942.136795
-e404059942.178306
-r1
-xLd
-x/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/AutoBuilds
-xnormal
-xarmv7
-d/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/AutoBuilds.LinkFileList
-d/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMUtils.o
-d/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMViewController.o
-d/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/main.o
-d/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/NMAppDelegate.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Link /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/AutoBuilds112"[1mLd[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/AutoBuilds normal armv78b1b23267715b841^fca52d267715b841^---0#0#1#--1315"[1mLd[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/AutoBuilds normal armv7    cd /Users/rlazan/Desktop/AutoBuilds    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -filelist /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/AutoBuilds.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/AutoBuilds_dependency_info.dat -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7/AutoBuilds36"A7A5BD8C-9E6D-43CA-93DA-02DEE045AC91-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CLd /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/AutoBuilds normal armv7s
-s404059942.136777
-e404059942.238173
-r1
-xLd
-x/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/AutoBuilds
-xnormal
-xarmv7s
-d/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/AutoBuilds.LinkFileList
-d/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMUtils.o
-d/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMViewController.o
-d/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/main.o
-d/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/NMAppDelegate.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Link /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/AutoBuilds114"[1mLd[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/AutoBuilds normal armv7sac1b23267715b841^2bf93c267715b841^---0#0#1#--1321"[1mLd[0m build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/AutoBuilds normal armv7s    cd /Users/rlazan/Desktop/AutoBuilds    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos -filelist /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/AutoBuilds.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/AutoBuilds_dependency_info.dat -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/Objects-normal/armv7s/AutoBuilds36"26CA5691-E651-465F-856A-6952CA856B3B-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CProcessInfoPlistFile /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/Info.plist /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Info.plist
-s404059943.339670
-e404059943.343142
-r1
-xProcessInfoPlistFile
-x/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/Info.plist
-x/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Process /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Info.plist118"[1mProcessInfoPlistFile[0m build/Release-iphoneos/AutoBuilds.app/Info.plist [1mAutoBuilds/AutoBuilds-Info.plist[0me10757277715b841^27d857277715b841^---0#0#1#-19%DVTDocumentLocation2@81"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Info.plist0000000000000000^945"[1mProcessInfoPlistFile[0m build/Release-iphoneos/AutoBuilds.app/Info.plist [1mAutoBuilds/AutoBuilds-Info.plist[0m    cd /Users/rlazan/Desktop/AutoBuilds    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Info.plist -genpkginfo /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/ResourceRules.plist -additionalcontentfile /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/assetcatalog_generated_info.plist -o /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/Info.plist36"D59A4A4C-5E2E-4922-89EA-046ADA073589-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CProcessPCH /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-alhsppposlzyuweovtacirccqzvf/AutoBuilds-Prefix.pch.pch AutoBuilds/AutoBuilds-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404059941.682746
-e404059941.851263
-r1
-xProcessPCH
-x/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-alhsppposlzyuweovtacirccqzvf/AutoBuilds-Prefix.pch.pch
-xAutoBuilds/AutoBuilds-Prefix.pch
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile AutoBuilds/AutoBuilds-Prefix.pch309"[1mProcessPCH[0m /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-alhsppposlzyuweovtacirccqzvf/AutoBuilds-Prefix.pch.pch AutoBuilds/AutoBuilds-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler48e1ae257715b841^70ecd9257715b841^---0#0#1#-19%DVTDocumentLocation2@81"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Prefix.pch0000000000000000^3613"[1mProcessPCH[0m /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-alhsppposlzyuweovtacirccqzvf/AutoBuilds-Prefix.pch.pch AutoBuilds/AutoBuilds-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rlazan/Desktop/AutoBuilds    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=112 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-generated-files.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-own-target-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-all-target-headers.hmap -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-project-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources/arm64 -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos --serialize-diagnostics /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-alhsppposlzyuweovtacirccqzvf/AutoBuilds-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-alhsppposlzyuweovtacirccqzvf/AutoBuilds-Prefix.pch.d -c /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Prefix.pch -o /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-alhsppposlzyuweovtacirccqzvf/AutoBuilds-Prefix.pch.pch36"FC94A908-4EE8-4DA5-BEC8-5DDC70048E60-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CProcessPCH /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-azllbgxrojhuqogncfqmojvdtwtc/AutoBuilds-Prefix.pch.pch AutoBuilds/AutoBuilds-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404059941.680208
-e404059941.850199
-r1
-xProcessPCH
-x/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-azllbgxrojhuqogncfqmojvdtwtc/AutoBuilds-Prefix.pch.pch
-xAutoBuilds/AutoBuilds-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile AutoBuilds/AutoBuilds-Prefix.pch309"[1mProcessPCH[0m /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-azllbgxrojhuqogncfqmojvdtwtc/AutoBuilds-Prefix.pch.pch AutoBuilds/AutoBuilds-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerfb40ae257715b841^eca5d9257715b841^---0#0#1#-19%DVTDocumentLocation2@81"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Prefix.pch0000000000000000^3613"[1mProcessPCH[0m /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-azllbgxrojhuqogncfqmojvdtwtc/AutoBuilds-Prefix.pch.pch AutoBuilds/AutoBuilds-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rlazan/Desktop/AutoBuilds    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=112 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-generated-files.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-own-target-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-all-target-headers.hmap -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-project-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources/armv7 -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos --serialize-diagnostics /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-azllbgxrojhuqogncfqmojvdtwtc/AutoBuilds-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-azllbgxrojhuqogncfqmojvdtwtc/AutoBuilds-Prefix.pch.d -c /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Prefix.pch -o /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-azllbgxrojhuqogncfqmojvdtwtc/AutoBuilds-Prefix.pch.pch36"84E2E97B-F17C-46B7-9D03-9D9B194CE80C-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CProcessPCH /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-byfdneszfcyrauheonbsopatiinn/AutoBuilds-Prefix.pch.pch AutoBuilds/AutoBuilds-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404059941.681467
-e404059941.851288
-r1
-xProcessPCH
-x/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-byfdneszfcyrauheonbsopatiinn/AutoBuilds-Prefix.pch.pch
-xAutoBuilds/AutoBuilds-Prefix.pch
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile AutoBuilds/AutoBuilds-Prefix.pch310"[1mProcessPCH[0m /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-byfdneszfcyrauheonbsopatiinn/AutoBuilds-Prefix.pch.pch AutoBuilds/AutoBuilds-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler6a88ae257715b841^a6efd9257715b841^---0#0#1#-19%DVTDocumentLocation2@81"file://localhost/Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Prefix.pch0000000000000000^3616"[1mProcessPCH[0m /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-byfdneszfcyrauheonbsopatiinn/AutoBuilds-Prefix.pch.pch AutoBuilds/AutoBuilds-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/rlazan/Desktop/AutoBuilds    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=112 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-generated-files.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-own-target-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-all-target-headers.hmap -iquote /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds-project-headers.hmap -I/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources/armv7s -I/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/DerivedSources -F/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos --serialize-diagnostics /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-byfdneszfcyrauheonbsopatiinn/AutoBuilds-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-byfdneszfcyrauheonbsopatiinn/AutoBuilds-Prefix.pch.d -c /Users/rlazan/Desktop/AutoBuilds/AutoBuilds/AutoBuilds-Prefix.pch -o /var/folders/s1/bhvjssy95558bq8yl36j2qq40000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AutoBuilds-Prefix-byfdneszfcyrauheonbsopatiinn/AutoBuilds-Prefix.pch.pch36"2F50F5C9-F391-4CAF-9790-9B7CC3C9CA9C-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds.xcent
-s404059943.364029
-e404059943.366604
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
-x/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection234"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist [1mbuild/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds.xcent[0m234"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist [1mbuild/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds.xcent[0md9415d277715b841^16da5d277715b841^---0#0#1#-19%DVTDocumentLocation2@122"file://localhost/Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds.xcent00380cafdfffdf42^771"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist [1mbuild/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds.xcent[0m    cd /Users/rlazan/Desktop/AutoBuilds    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/rlazan/Desktop/AutoBuilds/build/AutoBuilds.build/Release-iphoneos/AutoBuilds.build/AutoBuilds.xcent36"F32F5C4E-B5E4-43BF-A26C-3BCD69553B33-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CProcessProductPackaging /Users/rlazan/Library/MobileDevice/Provisioning\ Profiles/08A1727C-6D0C-4701-B42A-FC840F9ADB90.mobileprovision /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/embedded.mobileprovision
-s404059943.351596
-e404059943.354072
-r1
-xProcessProductPackaging
-x/Users/rlazan/Library/MobileDevice/Provisioning Profiles/08A1727C-6D0C-4701-B42A-FC840F9ADB90.mobileprovision
-x/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection213"[1mProcessProductPackaging[0m /Users/rlazan/Library/MobileDevice/Provisioning\ Profiles/08A1727C-6D0C-4701-B42A-FC840F9ADB90.mobileprovision [1mbuild/Release-iphoneos/AutoBuilds.app/embedded.mobileprovision[0m213"[1mProcessProductPackaging[0m /Users/rlazan/Library/MobileDevice/Provisioning\ Profiles/08A1727C-6D0C-4701-B42A-FC840F9ADB90.mobileprovision [1mbuild/Release-iphoneos/AutoBuilds.app/embedded.mobileprovision[0m4d135a277715b841^dba45a277715b841^---0#0#1#-19%DVTDocumentLocation2@111"file://localhost/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/embedded.mobileprovision00380cafdfffdf42^703"[1mProcessProductPackaging[0m /Users/rlazan/Library/MobileDevice/Provisioning\ Profiles/08A1727C-6D0C-4701-B42A-FC840F9ADB90.mobileprovision [1mbuild/Release-iphoneos/AutoBuilds.app/embedded.mobileprovision[0m    cd /Users/rlazan/Desktop/AutoBuilds    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility /Users/rlazan/Library/MobileDevice/Provisioning\ Profiles/08A1727C-6D0C-4701-B42A-FC840F9ADB90.mobileprovision -o /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/embedded.mobileprovision36"6E80ED09-3DDE-420A-AC4C-81A61CB208AA-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
-CTouch /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app
-r0
-
-CValidate /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app
-s404059943.599251
-e404059943.660897
-r1
-xValidate
-x/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"[1mValidate[0m [1mbuild/Release-iphoneos/AutoBuilds.app[0m62"[1mValidate[0m [1mbuild/Release-iphoneos/AutoBuilds.app[0m637b99277715b841^1634a9277715b841^---0#0#1#-19%DVTDocumentLocation2@87"file://localhost/Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app/0000000000000000^540"[1mValidate[0m [1mbuild/Release-iphoneos/AutoBuilds.app[0m    cd /Users/rlazan/Desktop/AutoBuilds    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/rlazan/Desktop/AutoBuilds/build/Release-iphoneos/AutoBuilds.app36"16BDA83F-9480-4B30-96C9-6643A2775EA1-
-bFE13F72C-AB67-4073-8644-0D9E7847FD40
-
