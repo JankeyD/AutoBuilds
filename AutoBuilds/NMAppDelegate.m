@@ -14,7 +14,6 @@
 {
     // Override point for customization after application launch.
     // Test
-    gregre
     return YES;
 }
 							
