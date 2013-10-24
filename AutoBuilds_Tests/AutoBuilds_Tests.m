@@ -32,7 +32,7 @@
 {
     // XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
     
-    XCTAssertTrue([@"Paladin" isEqualToString:[NMUtils classFromCharacterType:1]]);
+    XCTAssertTrue([@"Paladin" isEqualToString:[NMUtils classFromCharacterType:2]]);
     
     XCTAssertEqualObjects(@"Warrior", [NMUtils classFromCharacterType:1], @"ClassType should be Warrior");
 
