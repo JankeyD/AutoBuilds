@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E618E497181E50F900BD74FB /* automationTest.js in Sources */ = {isa = PBXBuildFile; fileRef = E618E496181E50F900BD74FB /* automationTest.js */; };
 		E6B39E1F1815161B00E1F83D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B39E1E1815161B00E1F83D /* Foundation.framework */; };
 		E6B39E211815161B00E1F83D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B39E201815161B00E1F83D /* CoreGraphics.framework */; };
 		E6B39E231815161B00E1F83D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B39E221815161B00E1F83D /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E618E496181E50F900BD74FB /* automationTest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = automationTest.js; path = Automation_Tests/automationTest.js; sourceTree = "<group>"; };
 		E6B39E1B1815161B00E1F83D /* AutoBuilds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoBuilds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B39E1E1815161B00E1F83D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6B39E201815161B00E1F83D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -84,9 +86,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E618E493181E4BD900BD74FB /* UI Automation */ = {
+			isa = PBXGroup;
+			children = (
+				E618E496181E50F900BD74FB /* automationTest.js */,
+			);
+			name = "UI Automation";
+			sourceTree = "<group>";
+		};
 		E6B39E121815161B00E1F83D = {
 			isa = PBXGroup;
 			children = (
+				E618E493181E4BD900BD74FB /* UI Automation */,
 				E6B39E241815161B00E1F83D /* AutoBuilds */,
 				E6B39F2218154F0F00E1F83D /* AutoBuilds_Tests */,
 				E6B39E1D1815161B00E1F83D /* Frameworks */,
@@ -264,6 +275,7 @@
 				E6B39EAF181533C500E1F83D /* NMUtils.m in Sources */,
 				E6B39E351815161B00E1F83D /* NMViewController.m in Sources */,
 				E6B39E2B1815161B00E1F83D /* main.m in Sources */,
+				E618E497181E50F900BD74FB /* automationTest.js in Sources */,
 				E6B39E2F1815161B00E1F83D /* NMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
