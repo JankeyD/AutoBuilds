@@ -28,8 +28,8 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E6B39E3B1815161B00E1F83D"
-               BuildableName = "AutoBuildsTests.xctest"
+               BlueprintIdentifier = "E6876AAC181EDBA80059F5CC"
+               BuildableName = "AutoBuildsTests.octest"
                BlueprintName = "AutoBuildsTests"
                ReferencedContainer = "container:AutoBuilds.xcodeproj">
             </BuildableReference>
@@ -39,16 +39,26 @@
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "NO"
+      shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E6B39F1C18154F0E00E1F83D"
-               BuildableName = "AutoBuilds_Tests.xctest"
-               BlueprintName = "AutoBuilds_Tests"
+               BlueprintIdentifier = "E6876AC2181EDBDB0059F5CC"
+               BuildableName = "AutoBuilds Tests.octest"
+               BlueprintName = "AutoBuilds Tests"
+               ReferencedContainer = "container:AutoBuilds.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E6876AD8181EDC020059F5CC"
+               BuildableName = "AutoBuildsTesty.octest"
+               BlueprintName = "AutoBuildsTesty"
                ReferencedContainer = "container:AutoBuilds.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -62,13 +72,6 @@
             ReferencedContainer = "container:AutoBuilds.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "FSJUnitTestLog"
-            value = "1"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"

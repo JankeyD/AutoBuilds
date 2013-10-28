@@ -9,12 +9,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AutoBuildsTests/NMUtilsTests.m"
-            timestampString = "404047204.991318"
+            filePath = "AutoBuilds_Tests/NMUtilsTests.m"
+            timestampString = "404671512.461991"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "-testCharacterClassNameLookup"
             landmarkType = "5">
          </BreakpointContent>
@@ -25,12 +25,44 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AutoBuildsTests/NMUtilsTests.m"
-            timestampString = "404047424.672381"
+            filePath = "AutoBuilds_Tests/NMUtilsTests.m"
+            timestampString = "404671716.26942"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-setUp"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AutoBuilds_Tests/NMUtilsTests.m"
+            timestampString = "404671717.321782"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-tearDown"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AutoBuildsTests/NMUtilsTests.m"
+            timestampString = "404675270.314973"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "-testCharacterClassNameLookup"
             landmarkType = "5">
          </BreakpointContent>
