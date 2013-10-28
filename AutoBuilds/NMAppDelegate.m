@@ -13,7 +13,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    // Test
+    
+#ifdef DEBUG
+    const char *env = getenv("FSJUnitTestLog");
+    if (env) {
+        NSLog(@"Run Unit-Tests with FSJUnitTestLog");
+        [[NSUserDefaults standardUserDefaults] setObject:@"XCTestLog,FSJUnitTestLog" forKey:@"XCTestObserverClass"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        return YES;
+    }
+#endif
+    
     return YES;
 }
 							

@@ -1,0 +1,13 @@
+PODS:
+  - FSJUnitTestLog (1.0):
+    - GDataXML-HTML (~> 1.1.0)
+  - GDataXML-HTML (1.1.0)
+
+DEPENDENCIES:
+  - FSJUnitTestLog (~> 1.0)
+
+SPEC CHECKSUMS:
+  FSJUnitTestLog: 594f610017907135caaa184ea68ebf3bca574d09
+  GDataXML-HTML: 281ea772a286241f860fa152cff5c7a7cd817336
+
+COCOAPODS: 0.26.2
