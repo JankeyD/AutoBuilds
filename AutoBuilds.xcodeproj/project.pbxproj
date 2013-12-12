@@ -386,8 +386,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: roman lazan (7595DY28P9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: roman lazan (7595DY28P9)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Roman Lazan (3C7Z848QJX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Roman Lazan (3C7Z848QJX)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -405,6 +405,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "361AD3AA-4E97-4F4C-9E6E-E2F11338B97D";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -426,8 +427,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: roman lazan (7595DY28P9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: roman lazan (7595DY28P9)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Roman Lazan (3C7Z848QJX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Roman Lazan (3C7Z848QJX)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -438,6 +439,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "361AD3AA-4E97-4F4C-9E6E-E2F11338B97D";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -448,13 +450,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: roman lazan (7595DY28P9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: roman lazan (7595DY28P9)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Roman Lazan (3C7Z848QJX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Roman Lazan (3C7Z848QJX)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoBuilds/AutoBuilds-Prefix.pch";
 				INFOPLIST_FILE = "AutoBuilds/AutoBuilds-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "08A1727C-6D0C-4701-B42A-FC840F9ADB90";
+				PROVISIONING_PROFILE = "361AD3AA-4E97-4F4C-9E6E-E2F11338B97D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -464,13 +466,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: roman lazan (7595DY28P9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: roman lazan (7595DY28P9)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Roman Lazan (3C7Z848QJX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Roman Lazan (3C7Z848QJX)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoBuilds/AutoBuilds-Prefix.pch";
 				INFOPLIST_FILE = "AutoBuilds/AutoBuilds-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "08A1727C-6D0C-4701-B42A-FC840F9ADB90";
+				PROVISIONING_PROFILE = "361AD3AA-4E97-4F4C-9E6E-E2F11338B97D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -485,6 +487,7 @@
 				E6876AEA181EDC020059F5CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6B39E161815161B00E1F83D /* Build configuration list for PBXProject "AutoBuilds" */ = {
 			isa = XCConfigurationList;
