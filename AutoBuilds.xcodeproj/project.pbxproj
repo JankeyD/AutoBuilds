@@ -332,6 +332,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoBuilds.app/AutoBuilds";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Roman Lazan (3C7Z848QJX)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -345,6 +346,7 @@
 				);
 				INFOPLIST_FILE = "AutoBuildsTesty/AutoBuildsTesty-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4BE92DAB-F835-459D-8524-74C57BF8F710";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -355,6 +357,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoBuilds.app/AutoBuilds";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Roman Lazan (3C7Z848QJX)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -364,6 +367,7 @@
 				GCC_PREFIX_HEADER = "AutoBuildsTesty/AutoBuildsTesty-Prefix.pch";
 				INFOPLIST_FILE = "AutoBuildsTesty/AutoBuildsTesty-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4BE92DAB-F835-459D-8524-74C57BF8F710";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -388,6 +392,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Roman Lazan (3C7Z848QJX)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Roman Lazan (3C7Z848QJX)";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -405,7 +410,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "361AD3AA-4E97-4F4C-9E6E-E2F11338B97D";
+				PROVISIONING_PROFILE = "4BE92DAB-F835-459D-8524-74C57BF8F710";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -429,6 +434,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Roman Lazan (3C7Z848QJX)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Roman Lazan (3C7Z848QJX)";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -439,7 +445,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PROVISIONING_PROFILE = "361AD3AA-4E97-4F4C-9E6E-E2F11338B97D";
+				PROVISIONING_PROFILE = "4BE92DAB-F835-459D-8524-74C57BF8F710";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -455,8 +461,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoBuilds/AutoBuilds-Prefix.pch";
 				INFOPLIST_FILE = "AutoBuilds/AutoBuilds-Info.plist";
+				LD_MAP_FILE_PATH = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "361AD3AA-4E97-4F4C-9E6E-E2F11338B97D";
+				PROVISIONING_PROFILE = "4BE92DAB-F835-459D-8524-74C57BF8F710";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -471,8 +479,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoBuilds/AutoBuilds-Prefix.pch";
 				INFOPLIST_FILE = "AutoBuilds/AutoBuilds-Info.plist";
+				LD_MAP_FILE_PATH = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "361AD3AA-4E97-4F4C-9E6E-E2F11338B97D";
+				PROVISIONING_PROFILE = "4BE92DAB-F835-459D-8524-74C57BF8F710";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
