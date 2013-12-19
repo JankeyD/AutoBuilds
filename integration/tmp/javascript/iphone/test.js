@@ -9,7 +9,7 @@ var testName = "Test 1";
 UIALogger.logStart( testName );
 app.logElementTree();
 
-//-- tap on the text field
+//-- tap on the text field d
 UIALogger.logMessage( "Tap on the text field" );
 window.textFields()[0].tap();
 app.keyboard().typeString("Hello");
