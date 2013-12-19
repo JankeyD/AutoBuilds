@@ -1,5 +1,3 @@
-#import "img_cmp.js"
-
 var target = UIATarget.localTarget();
 var app = target.frontMostApp();
 var window = app.mainWindow();
@@ -40,23 +38,6 @@ tabBar.buttons()["right"].tap();
 target.delay(2);
 
 var host = target.host();
-
-//var result = host.performTaskWithPathArgumentsTimeout("/bin/ls", ["-t", "integration/tmp/results", "|", "grep", "-v", "/$", "|", "head", "-1"], 5);
-var result = host.performTaskWithPathArgumentsTimeout("/bin/ls", ["-t", "integration/tmp/results"], 5);
-
-var folder = result.stdout;	
-var path0 = "integration/tmp/results/" + folder + "/screenShot0.png";
-var path1 = "integration/tmp/results/" + folder + "/screenShot1.png";
-
-UIALogger.logMessage( path0 );
-
-var res = compareImages(path0, path1);
-
-if (res.stderr == "0 (0)") {
-	UIALogger.logFail("Images are distuingish.");
-} else {
-	UIALogger.logPass("Images are the same.");
-} 
 
 
 
